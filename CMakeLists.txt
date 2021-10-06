@@ -17,18 +17,18 @@ find_package(catkin REQUIRED COMPONENTS
   actionlib_msgs
 )
 
-add_message_files(
-  FILES
-  )
+#add_message_files(
+#  FILES
+#  )
 
 add_service_files(
   FILES
   ListOfExecuterProperties.srv
   )
 
-add_action_files(
-  FILES
-)
+#add_action_files(
+#  FILES
+#)
 
 generate_messages(
   DEPENDENCIES
