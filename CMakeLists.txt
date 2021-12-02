@@ -2,14 +2,8 @@ cmake_minimum_required(VERSION 3.0.2)
 project(manipulation_jobs_msgs)
 
 find_package(catkin REQUIRED COMPONENTS
-  std_msgs
-)
-
-
-
-find_package(catkin REQUIRED COMPONENTS
-  geometry_msgs
   message_generation
+  geometry_msgs
   std_msgs
   control_msgs
   sensor_msgs
